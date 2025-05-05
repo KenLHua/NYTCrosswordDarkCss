@@ -1,3 +1,5 @@
+Add into your userCustom.css in your firefox profile.
+
 Not tested on any other game. Only really works for crossword and minis.
 
 Inline-style: 
