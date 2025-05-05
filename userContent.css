@@ -1,0 +1,83 @@
+@-moz-document domain(nytimes.com) {
+    .pz-dont-touch, .pz-hide-loadingm .pz-game-field, html, body, .pz-game-root, .xwd__loading, .xwd__layout_container > *, .pz-row, .xwd__tool--button, .xwd__timer--button, .crossword-container, .pz-page {
+        background-color: #121212 !important;
+    }
+
+    .xwd__details--container, .xwd__modal--content{
+        color:White !important;
+    }
+
+    .pz-game-toolbar {
+        border-top: 1px solid #d0b1f1 !important;
+        border-bottom: 1px solid #d0b1f1 !important;
+    }
+    .timer-count, .xwd__tool--button {color: white !important;}
+
+    .xwd__menu--item button {
+        color: #8f71b0 !important;
+        background-color: #202020 !important;
+    }
+
+    .xwd__clue-list--title {
+        color: #d0b1f1 !important;
+        border-bottom: 1px solid #d0b1f1 !important;
+    }
+
+    .xwd__cell--cell {fill: #2d2d2d !important}
+
+    .xwd__cell--highlighted{
+        fill: #4b4487 !important;
+    }
+    .xwd__cell--selected{
+        fill: #3d536f !important;
+    }
+
+    .xwd__assistance--confirmed ~ text:last-of-type{
+        fill: #d0b1f1 !important;
+    }
+
+    .xwd__cell text {
+        fill: white !important;
+      }
+
+    .xwd__modal--body {background-color: #2b2a2a !important;}
+
+    .xwd__clue-bar-desktop--bar{
+        background: #a58ac6f6 !important;
+    }
+    
+    .xwd__clue--selected{
+        background: #c19ded84 !important;
+    }
+
+    .xwd__clue--selected span{
+        color: #b582f5 !important
+    }
+
+    .xwd__cell--related{
+        fill: #352e28   !important;
+    }
+
+    .xwd__clue--highlighted {
+        border-left-color: #342475 !important;
+      }
+
+    .xwd__clue--li {
+        color: #d0b1f1 !important;
+    }
+
+    .xwd__clue-list--obscured li span:last-child{
+        color: #a88ac9 !important;
+        background-color: #a88ac9 !important;
+    }
+    
+    .xwd__clue--filled{
+        color: #636363 !important;
+    }
+
+    .xwd__clue--related{
+        background-color: #352e28  !important;
+    }
+
+
+}
